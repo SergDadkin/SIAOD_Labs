@@ -22,7 +22,7 @@ POW_BASE = 3
 REPEATS = 5           
 POW_CALLS = 20_000    
 
-# 1. Алгоритмы (реализованы вручную)
+# 1. Алгоритмы
 
 
 def array_sum(a: list[int]) -> int:
@@ -45,7 +45,7 @@ def array_max(a: list[int]) -> int:
 
 
 def count_equal_pairs(a: list[int]) -> int:
-    """Число пар (i, j), i < j, таких что a[i] == a[j]. Ожидаемая сложность: O(n²)."""
+    """Число пар (i, j), i < j, таких что a[i] == a[j].сложность: O(n2)."""
     count = 0
     n = len(a)
     for i in range(n):
@@ -56,7 +56,7 @@ def count_equal_pairs(a: list[int]) -> int:
 
 
 def binary_pow(x: int, n: int, mod: int | None = None) -> int:
-    """Бинарное возведение в степень, n >= 0. Ожидаемая сложность: O(log₂ n)."""
+    """Бинарное возведение в степень сложность: O(log2 n)."""
     if n == 0:
         return 1 if mod != 1 else 0
         
@@ -249,7 +249,7 @@ def plot_results(results: dict[str, list[tuple[int, float]]], out_dir: Path) -> 
     ax2.plot([math.log2(n) for n, _ in points], [t for _, t in points], marker="o")
     ax2.set_xlabel("log₂ n (число бит показателя)")
     ax2.set_ylabel("время одного вызова, с")
-    ax2.set_title("Бинарное возведение в степень: t(log₂ n)")
+    ax2.set_title("Бинарное возведение в степень: t(log2 n)")
     ax2.grid(True, linewidth=0.3)
     fig2.tight_layout()
     pow_path = out_dir / "lab01_binary_pow.png"
