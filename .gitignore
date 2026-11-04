@@ -44,12 +44,12 @@ M1-intro-and-basic-structures/attachments/*
 !M1-intro-and-basic-structures/attachments/lab02-recursion-structures-starter.py
 
 # --- Папка M2 (Лабораторная №3) ---
+# --- Папка M2 (Лабораторные №3 и №4) ---
 M2-sorting/*
 !M2-sorting/attachments/
 M2-sorting/attachments/*
 !M2-sorting/attachments/lab03-simple-sorts-quicksort-starter.py
-
-
+!M2-sorting/attachments/lab04-mergesort-linear-heapsort-starter.py
 # =====================================================================
 # РАЗРЕШЕННЫЕ ГРАФИКИ И ОТЧЕТЫ (В КОРНЕ)
 # =====================================================================
