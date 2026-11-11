@@ -39,17 +39,23 @@ M4-*/
 M1-intro-and-basic-structures/*
 !M1-intro-and-basic-structures/attachments/
 M1-intro-and-basic-structures/attachments/*
-
 !M1-intro-and-basic-structures/attachments/lab01-complexity-starter.py
 !M1-intro-and-basic-structures/attachments/lab02-recursion-structures-starter.py
 
-# --- Папка M2 (Лабораторная №3) ---
 # --- Папка M2 (Лабораторные №3 и №4) ---
 M2-sorting/*
 !M2-sorting/attachments/
 M2-sorting/attachments/*
 !M2-sorting/attachments/lab03-simple-sorts-quicksort-starter.py
 !M2-sorting/attachments/lab04-mergesort-linear-heapsort-starter.py
+
+# --- Папка M3 (Лабораторная №5) ---
+!M3-trees/
+M3-trees/*
+!M3-trees/attachments/
+M3-trees/attachments/*
+!M3-trees/attachments/lab05-bst-starter.py
+
 # =====================================================================
 # РАЗРЕШЕННЫЕ ГРАФИКИ И ОТЧЕТЫ (В КОРНЕ)
 # =====================================================================
