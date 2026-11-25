@@ -27,14 +27,13 @@ docs/
 scripts/
 LICENSE.md
 
-# Отключаем все будущие модули (начиная со 4-й лабы)
+# Отключаем все будущие модули (начиная с 4-й лабы)
 M3-*/
 M4-*/
 
 # =====================================================================
 # НАСТРОЙКА ВИДИМОСТИ ДЛЯ ВЫПОЛНЕННЫХ ЛАБОРАТОРНЫХ РАБОТ
 # =====================================================================
-
 # --- Папка M1 (Лабораторные №1 и №2) ---
 M1-intro-and-basic-structures/*
 !M1-intro-and-basic-structures/attachments/
@@ -56,6 +55,13 @@ M3-trees/*
 M3-trees/attachments/*
 !M3-trees/attachments/lab05-bst-starter.py
 
+# --- Папка M4 (Лабораторная №6) ---
+!M4-search-and-hashing/
+M4-search-and-hashing/*
+!M4-search-and-hashing/attachments/
+M4-search-and-hashing/attachments/*
+!M4-search-and-hashing/attachments/lab06-search-starter.py
+
 # =====================================================================
 # РАЗРЕШЕННЫЕ ГРАФИКИ И ОТЧЕТЫ (В КОРНЕ)
 # =====================================================================
@@ -63,6 +69,6 @@ M3-trees/attachments/*
 !lab01_binary_pow.png
 !deque_benchmark_results.png
 !lab03_*.png
-
+!lab06_*.png
 !README.md
 !.gitignore

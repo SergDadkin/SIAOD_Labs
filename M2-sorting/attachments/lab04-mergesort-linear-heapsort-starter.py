@@ -275,7 +275,7 @@ def generate(n, kind):
 def run_benchmarks():
     sizes = [100, 500, 1000, 2000, 5000]
     distributions = ["sorted", "reversed", "nearly",
-                       "random", "random_wide", "duplicates"]
+                     "random", "random_wide", "duplicates"]
 
     algos = [
         ("merge_sort", merge_sort),
