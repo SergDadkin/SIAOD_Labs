@@ -21,7 +21,6 @@ methodical-guidelines/
 lectures/
 data/
 Exam/
-Cases/
 .github/
 docs/
 scripts/
@@ -61,6 +60,22 @@ M4-search-and-hashing/*
 !M4-search-and-hashing/attachments/
 M4-search-and-hashing/attachments/*
 !M4-search-and-hashing/attachments/lab06-search-starter.py
+
+# =====================================================================
+# НАСТРОЙКА ВИДИМОСТИ ДЛЯ ДОМАШНИХ ЗАДАНИЙ (Папка Cases)
+# =====================================================================
+# Вместо "Cases/" пишем "Cases/*", чтобы разрешить исключения
+Cases/*
+!Cases/attachments/
+Cases/attachments/*
+# Разрешаем видимость файлов ДЗ-01
+!Cases/attachments/dz01-ai-code.py
+!Cases/attachments/dz01-ai-code-fixed.py
+!Cases/attachments/dz01-verification-starter.py
+# Если нужно залить стартеры для остальных ДЗ, раскомментируй строки ниже:
+# !Cases/attachments/dz02-bst-height-starter.py
+# !Cases/attachments/dz03-log-anomalies-starter.py
+# !Cases/attachments/dz04-semantic-matching-starter.py
 
 # =====================================================================
 # РАЗРЕШЕННЫЕ ГРАФИКИ И ОТЧЕТЫ (В КОРНЕ)
